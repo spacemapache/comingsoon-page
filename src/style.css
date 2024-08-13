@@ -1,0 +1,55 @@
+body {
+  background-color: #e8d1a7;
+}
+.container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.comingSoonPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 650px;
+  border: 1px solid black;
+}
+
+.pageDetails {
+  background-color: #8b523b;
+  color: white;
+  padding-left: 10px;
+}
+
+.pageDetails h2 {
+  font-family: "Baskervville SC", serif;
+}
+
+.pageDetails h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.pageDetails p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+}
+
+.pageDetails input {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.pageDetails button {
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+img {
+  width: 300px;
+  height: 100%;
+}
