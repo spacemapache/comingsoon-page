@@ -5,19 +5,23 @@ body {
   padding-top: 40px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .comingSoonPage {
   display: flex;
   justify-content: center;
   flex-direction: row;
   max-width: 650px;
-  border: 1px solid black;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .pageDetails {
   background-color: #8b523b;
   color: white;
   padding-left: 10px;
+  align-items: center;
 }
 
 .pageDetails h2 {
@@ -30,7 +34,8 @@ body {
 
 .pageDetails p {
   font-family: "Quicksand", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 
 .pageDetails input {
@@ -44,9 +49,11 @@ body {
 
 .pageDetails button {
   width: 70px;
-  height: 20px;
+  height: 25px;
   border-radius: 5px;
   border: none;
+  background-color: #452c1c;
+  color: white;
 }
 
 img {
